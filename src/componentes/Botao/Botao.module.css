@@ -1,0 +1,26 @@
+.botao {
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    justify-content: space-around;
+    border: none;
+    cursor: pointer;
+}
+
+.vermelho {
+    background-color: #e50914;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.azul{
+    background-color: #0e1ded ;
+    color: #ffffff;
+}
+
+.branco{
+    background-color: #ffffff ;
+    color: #000000;
+}

@@ -1,0 +1,34 @@
+.videoCard {
+  width: 100%;
+  padding-bottom: 56.25%; /* Proporção 16:9 para o vídeo */
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Estilo de zoom suave ao passar o mouse */
+.videoCard:hover {
+  transform: scale(1.05);
+}
+.videoCard img {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+/* Estilos para tablets (tamanho de tela até 768px) */
+@media screen and (min-width: 768px) {
+  .videoCard {
+    padding-bottom: 66.67%; /* Proporção 3:2 para o vídeo */
+  }
+}
+
+/* Estilos para desktops (tamanho de tela até 1024px) */
+@media screen and (min-width: 1024px) {
+  .videoCard {
+    padding-bottom: 56.25%; /* Proporção 16:9 para o vídeo */
+  }
+}
+
+/* Outros estilos responsivos podem ser adicionados conforme necessário */

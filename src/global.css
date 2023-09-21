@@ -1,0 +1,8 @@
+/* estilização de tamanho de fontes e paleta de cores*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&family=Ubuntu:wght@400;500&family=Ysabeau+Office:ital,wght@0,100;0,500;1,300&display=swap');
+body {
+    background-color: #fdfcfc;
+    font-family: 'Ubuntu', 'Montserrat', sans-serif;
+    color: #4f79a0;
+
+}

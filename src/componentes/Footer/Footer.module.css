@@ -1,0 +1,11 @@
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: white;
+}
+
+.footer img {
+    width: 100px; /* Defina o tamanho do logo conforme necessário */
+    height: auto;
+}

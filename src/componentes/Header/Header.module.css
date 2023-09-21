@@ -1,0 +1,19 @@
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000000;
+   
+}.logo {
+    width: 100px; 
+    height: auto;
+}
+
+
+@media (max-width: 430px) {
+    .navegacao {
+        justify-content: center;
+    }
+
+}

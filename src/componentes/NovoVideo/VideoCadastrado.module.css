@@ -1,0 +1,58 @@
+.novocadastro{
+    background: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.novocadastro h2 {
+    margin-bottom: 18px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.novocadastro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.novocadastro input,
+.novocadastro textarea{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #a1a1a1;
+    border: none;
+}
+
+.novocadastro select {
+    padding: 20px;
+    margin-top: 5px;
+    background-color: #a1a1a1;
+
+}
+.novocadastro .InputLabel{
+    background-color: #a1a1a1;
+}
+
+.botoes {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: last baseline;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    gap: 3rem;
+ 
+}
+
+.botoes .trocarcategoria {
+    display: flex;
+}

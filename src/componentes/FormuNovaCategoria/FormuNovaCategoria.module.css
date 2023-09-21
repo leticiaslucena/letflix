@@ -1,0 +1,54 @@
+.novocadastro {
+  background: black;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.novocadastro h2 {
+  margin-bottom: 18px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.novocadastro input,
+.novocadastro textarea{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #a1a1a1;
+    border: none;
+}
+
+.inputCor label {
+  color: #e5e5e5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.inputCor input {
+  width: 100%;
+  border: none;
+  border-color: #0e4ee2;
+}
+
+.botao {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.buttons {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 10px;
+}

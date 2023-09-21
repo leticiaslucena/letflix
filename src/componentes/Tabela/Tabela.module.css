@@ -1,0 +1,38 @@
+.tabela {
+  border: 3px solid;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: -100px;
+}
+.cabeçalho {
+  color: #000000;
+  border-bottom: 4px solid;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 2.1875rem;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.cabeçalho :not(:last-child) {
+  border-right: 4px solid;
+}
+
+.catgcriadas {
+  color: #5e5d5dfb;
+  font-family: Roboto;
+  font-size: 1.6875rem;
+  line-height: normal;
+}
+.bttabedit{
+  background:#10f570;
+  cursor: pointer;
+  font-size: 1.6875rem;
+  margin: 2px;
+}
+.bttabremov {
+  background:#f90303;
+  cursor: pointer;
+  font-size: 1.6875rem;
+  margin: 2px;
+}
